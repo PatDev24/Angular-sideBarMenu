@@ -1,0 +1,149 @@
+/* * {
+    outline: red dashed 1px;
+} 
+ */
+.sidebar {
+    display: none;
+    height: 100vh;
+    width: 270px;
+    left: -270px;
+    background: #1a2a43;
+    color: #fff;
+    border-right: #3003a3 solid 3px;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.sidebar.is-active {
+    display: block;
+    left: 0;
+    transition: all 2000ms ease;
+}
+
+.sidebar .logo, .menu{
+    width: 80%;
+    margin-left: 10%;
+   
+}
+.company-logo{
+    text-align: center;
+}
+ .company-logo h2{
+ margin: 5px 0;
+ margin-bottom: 20px;
+   
+}
+.company-logo .company-img-logo{
+    height: 25%;
+    width: 25%;
+}
+
+.sidebar .logo{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sidebar .menu{
+    margin-top: 24px;
+}
+
+.sidebar .name{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.menu i{
+    margin-right: 10px;
+}
+.menu ul{
+    margin-bottom: 20px;
+}
+
+.sidebar p{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.sidebar .menu li{
+    list-style: none;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.sidebar .menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+
+.sidebar .menu li a:hover{
+    text-decoration: none;
+    color: #426ADD;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: #fff solid 1px;
+    border-bottom: #fff solid 1px;
+    padding: 10px 15px;
+    
+}
+
+.sidebar .menu li a.active{
+    text-decoration: none;
+    color: #426ADD;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 12px;
+}
+
+.logo .profile{
+    margin: 3spx 3px;
+    height: 100px;
+    width: 100px;
+    border: #e83e3e solid 3px;
+    border-radius: 50px;   
+}
+hr.solid{
+    border-top: 1px solid #c0b0b0;
+    opacity: 0.3;
+}
+.settings-field{
+    padding-left: 5px;
+}
+
+
+/* edit primeng btn */
+
+:host ::ng-deep .settings .ng-star-inserted{
+ color: #fff !important;
+ background-color: transparent!important;
+ border: none !important;
+ z-index: 100 !important;
+
+}
+:host ::ng-deep .settings:hover{
+    color: #fff !important;
+    background-color: transparent!important;
+    border: none !important;
+    z-index: 100 !important;
+    color:#426ADD !important;
+   
+   }
+:host ::ng-deep .p-submenu-list{
+    background-color: #1a2a43 !important;
+    border-radius: 3px !important;
+    z-index: 101 !important;
+ 
+   
+}
+
+
+
+

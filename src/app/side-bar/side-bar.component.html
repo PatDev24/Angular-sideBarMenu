@@ -1,0 +1,25 @@
+<div class="sidebar" [class.is-active]="toggleService.toggleState">
+ <div class="company-logo">
+  <img class="company-img-logo" src="/assets/company-logo.png" alt=""/>
+      <h2> REDEFINE</h2> 
+ </div>
+ <hr class="solid">
+    <div class="logo">
+        <img class="profile" src="/assets/icon.jpg" alt=""/>
+
+      <h1 class="name">Dela Cruz, Juan</h1>
+      <p class="position">Full Stack Developer</p>
+    </div>
+    <div class="menu">
+        <ul>
+        <li><a routerLinkActive ="active" routerLink="/Home" ><i class="pi pi-fw pi-home"></i>HOME</a></li>
+       <li><a routerLinkActive ="active" routerLink ="/Departments" ><i class="pi pi-fw pi-sitemap"></i>DEPARTMENTS</a></li>
+       <li><a routerLinkActive="active" routerLink ="/Employee" ><i class="pi pi-fw pi-users"></i>EMPLOYEE</a></li>
+        </ul>
+    </div>
+    <hr class="solid">
+    <div class="settings-field">
+      <p-tieredMenu  class="settings" [model]="settings"></p-tieredMenu>
+    </div>
+  
+</div>

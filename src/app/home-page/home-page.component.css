@@ -1,0 +1,28 @@
+p{
+    text-align: center;
+    margin: 50px 100px;
+    
+    }
+  .breadcrumb-item{
+    padding: 5px 5px;
+  }
+  .breadcrumb{
+  
+   position: absolute;
+    align-items: center;
+    margin: 5px 15px;
+   
+   
+  }
+  li{
+    display: inline;
+   
+  }
+  
+  
+  .breadcrumb li+li:before{
+    
+    padding: 5px;
+    content: ">\00a0";
+    text-decoration: none;
+  }

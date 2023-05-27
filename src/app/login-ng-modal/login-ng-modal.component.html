@@ -1,0 +1,16 @@
+<form class="login-form">
+    <div class="login-container">
+        <label htmlFor="username">Username</label>
+        <input type="text" pInputText formControlName="text"/>
+   
+        <label htmlFor="psw">Password</label>
+        <p-password formControlName="value" [feedback]="false"></p-password>
+    </div>
+    
+    <div class="btn-container">
+        <p-button label="Submit" (click)="onOpenHome()" routerLink="Home" routerLinkActive="active" ></p-button>
+    </div>
+</form>
+
+
+

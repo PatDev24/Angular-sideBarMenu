@@ -1,0 +1,33 @@
+/* *{
+    outline: red dashed 1px;
+} */
+:host >>>.login-form{
+    width: 35vw;
+}
+:host >>> .login-container {
+    margin: 10px 0;
+}
+ :host >>> .login-container .p-inputtext{
+    width: 100%;
+    margin: 5px 0;
+  
+    
+    
+}  
+:host >>> .login-container .p-password  {
+    margin: 5px 0;
+    width: 100%;
+   
+  
+ 
+} 
+ 
+:host >>> .login-form .btn-container{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+    
+  
+}
